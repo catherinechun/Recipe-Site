@@ -1,0 +1,119 @@
+body {
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Viga', sans-serif;
+}
+
+h1, h2 {
+      font-family: 'Viga', sans-serif;
+}
+
+h3, h4, p {
+      font-family: 'Raleway', sans-serif;
+}
+
+/*****GRID*****/
+
+.container {
+      margin: 0 auto;
+      width: auto;
+      height: auto;
+      overflow: auto;
+      clear: both;
+}
+
+/*****HEADER*****/
+
+header {
+      height: 100px;
+      overflow: auto;
+      clear: both;
+      background-color: black;
+}
+
+header h2 {
+      color: white;
+      font-size: 26px;
+      float: left;
+      padding: 10px 0 0 25px;
+}
+
+header nav {
+      font-size: 20px;
+      float: right;
+      padding: 15px 10px 0 0;
+}
+
+header nav ul li {
+      display: inline-block;
+      padding: 0 15px;
+}
+
+header nav ul li a {
+      color: white;
+      text-decoration: none;
+}
+
+header nav ul li a:hover {
+      color: pink;
+}
+
+/*****MAIN*****/
+
+#main {
+      margin: 0 auto;
+      height: 1000px;
+      overflow: auto;
+      clear: both;
+      background-image: url('../img/wallpaper.jpg');
+}
+
+#main h1 {
+      font-size: 85px;
+      padding: 250px 0 0 35px;
+}
+
+#main h2 {
+      font-size: 45px;
+      padding: 0 35px;
+}
+
+#main h3 {
+      font-size: 35px;
+      padding: 0 35px;
+}
+
+/*****RECIPES*****/
+
+#recipes {
+      margin: 0 auto;
+      width: 80%;
+}
+
+#recipes ul li {
+      display: inline-block;
+      padding: 0 10px 10px 0;
+}
+
+#recipes img {
+      border: 5px solid white;
+      width: 200px;
+      height: auto;
+      vertical-align: top;
+}
+
+#recipes img:hover {
+      border: 5px solid black;
+}
+
+/*****FOOTER*****/
+
+footer {
+      overflow: auto;
+      clear: both;
+      text-align: center;
+      background-color: black;
+}
+
+footer p {
+      color: white;
+}
